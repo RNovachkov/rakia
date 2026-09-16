@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rakia — Privacy Policy</title>
+<meta name="description" content="Privacy policy for the Rakia iOS app. No data collection, no tracking, no ads.">
+<style>
+  /* Palette taken from the app: systemPink accent, .cyan water tab,
+     GlassBackground baseLight/baseDark, and the sugar hero gradient. */
+  :root {
+    --bg:        #FAF2F5;  /* GlassBackground.baseLight */
+    --fg:        #1A1218;
+    --muted:     #6B6068;
+    --rule:      #EADCE2;
+    --card:      #F6E9EE;
+    --pink:      #C2185B;  /* accessible systemPink for text */
+    --pink-vivid:#FF2D55;  /* systemPink, decorative */
+    --cyan:      #00728F;  /* accessible systemCyan for text */
+    --cyan-vivid:#32ADE6;  /* systemCyan, decorative */
+    --grad-top:  #FF5C82;  /* sugar hero gradient */
+    --grad-bot:  #E21448;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg:        #190F15;  /* GlassBackground.baseDark */
+      --fg:        #F2E9ED;
+      --muted:     #A2959C;
+      --rule:      #342128;
+      --card:      #241820;
+      --pink:      #FF375F;  /* systemPink, dark variant */
+      --pink-vivid:#FF375F;
+      --cyan:      #64D2FF;  /* systemCyan, dark variant */
+      --cyan-vivid:#64D2FF;
+      --grad-top:  #FF6996;
+      --grad-bot:  #BA1759;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0 16px; background: var(--bg); color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 0 5rem; }
+  h1 {
+    font-size: 1.9rem; line-height: 1.2; margin: 0 0 .3rem; letter-spacing: -.02em;
+    background: linear-gradient(180deg, var(--grad-top), var(--grad-bot));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+    width: fit-content;
+  }
+  h2 { font-size: 1.15rem; margin: 2.4rem 0 .6rem; letter-spacing: -.01em; color: var(--pink); }
+  .date { color: var(--muted); font-size: .9rem; margin: 0 0 2rem; }
+  .lede {
+    background: var(--card); border-left: 3px solid transparent;
+    border-image: linear-gradient(180deg, var(--grad-top), var(--grad-bot)) 1;
+    padding: 1rem 1.2rem; margin: 0 0 1rem;
+  }
+  ul { padding-left: 1.2rem; }
+  li { margin: .3rem 0; }
+  li::marker { color: var(--pink-vivid); }
+  a { color: var(--cyan); text-underline-offset: 2px; }
+  a:hover { color: var(--pink); }
+  hr {
+    border: 0; height: 2px; margin: 4rem 0;
+    background: linear-gradient(90deg, var(--pink-vivid), var(--cyan-vivid));
+    opacity: .6;
+  }
+  nav { font-size: .9rem; margin-bottom: 2.5rem; color: var(--muted); }
+  nav a { margin-right: .8rem; }
+  code {
+    background: var(--card); padding: .1em .35em; border-radius: 3px;
+    font-size: .9em; color: var(--pink);
+  }
+  strong { color: var(--fg); }
+  footer { color: var(--muted); font-size: .85rem; margin-top: 4rem; }
+</style>
+</head>
+<body>
+<main>
+
+<nav><a href="#en">English</a><a href="#bg">Български</a></nav>
+
+<section id="en">
+<h1>Privacy Policy</h1>
+<p class="date">Rakia for iOS · Last updated 17 September 2026</p>
+
+<p class="lede"><strong>The short version.</strong> Rakia does not collect any data about you. There is no account, no analytics, no advertising and no third-party code in the app. Your measurements stay on your device and, if you turn on iCloud, in your own private iCloud, which only you can open.</p>
+
+<h2>Who this policy is from</h2>
+<p>Rakia (“the app”) is developed by <strong>[YOUR NAME OR COMPANY]</strong> (“we”, “us”). You can reach us at <strong>[YOUR SUPPORT EMAIL]</strong>. For the purposes of the GDPR we are the data controller for the app, although as set out below we do not collect or receive any personal data through it.</p>
+
+<h2>What we collect</h2>
+<p>Nothing. We do not collect, receive, store, sell, share or transmit any personal data. The app contains:</p>
+<ul>
+  <li>No analytics or usage tracking</li>
+  <li>No advertising and no ad networks</li>
+  <li>No crash or diagnostic reporting services</li>
+  <li>No third-party SDKs, libraries or frameworks of any kind</li>
+  <li>No accounts, sign-in or registration</li>
+  <li>No access to your contacts, photos, location, camera, microphone, calendar or health data</li>
+  <li>No embedded web browser and no web content</li>
+</ul>
+<p>We operate no servers. There is no address to which the app could send your information.</p>
+
+<h2>What the app keeps on your device</h2>
+<p>The app stores the following locally on your device:</p>
+<ul>
+  <li>The measurements you choose to save — density, temperature, the calculated sugar content and the date you give them</li>
+  <li>Your preferences, such as metric or imperial units</li>
+  <li>Two counters used to decide when to show the App Store rating prompt, and a flag recording that it has been shown</li>
+</ul>
+<p>None of this leaves your device except through iCloud sync, described below. Deleting the app removes all of it.</p>
+
+<h2>iCloud sync</h2>
+<p>If you are signed in to iCloud, your saved measurements sync between your own Apple devices using Apple’s CloudKit service, in a private container (<code>iCloud.com.novachkov.rakia</code>).</p>
+<p>This data lives in your private iCloud database. It is tied to your Apple Account and only you can reach it. <strong>We have no access to it.</strong> Apple does not give developers the ability to read the contents of a user’s private CloudKit database, and we hold no key, credential or console access that would let us do so. We could not read your measurements if we wanted to.</p>
+<p>Data held in iCloud is processed by Apple under <a href="https://www.apple.com/legal/privacy/">Apple’s Privacy Policy</a>. You can stop syncing at any time by turning iCloud off for Rakia in Settings.</p>
+
+<h2>Push notifications</h2>
+<p>The app includes the push notification capability, but it is used only by Apple’s CloudKit service to signal that your measurements have changed on another of your devices so that the app can sync. We do not send push notifications, we operate no notification server, and we cannot send you messages. The app never asks permission to display notifications to you.</p>
+
+<h2>The rating prompt</h2>
+<p>After you have saved a number of measurements, the app may ask iOS to show the standard App Store rating prompt. The system presents it. We do not learn whether you saw it, dismissed it or left a review, and nothing is sent to us.</p>
+
+<h2>Children</h2>
+<p>The app collects no data from anyone, including children. Its age rating reflects that it concerns the production of alcoholic drinks, not the handling of personal information.</p>
+
+<h2>Your rights</h2>
+<p>Under the GDPR and similar laws you have the right to access, correct, export and erase personal data held about you. Because we hold no personal data about you, there is nothing for us to retrieve, correct or erase. You stay in full control of what is on your device and in your iCloud: you can view, edit and delete any saved measurement inside the app, and remove all of it at once by deleting the app.</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy changes, the new version will appear at this address with a new date at the top. Because the app collects nothing, we do not expect material changes. We will not begin collecting anything without publishing a revised policy first.</p>
+
+<h2>Contact</h2>
+<p><strong>[YOUR SUPPORT EMAIL]</strong></p>
+</section>
+
+<hr>
+
+<section id="bg" lang="bg">
+<h1>Политика за поверителност</h1>
+<p class="date">Rakia за iOS · Последна редакция 17 септември 2026 г.</p>
+
+<p class="lede"><strong>Накратко.</strong> Rakia не събира никакви данни за вас. Няма регистрация, няма анализи, няма реклами и няма чужд код в приложението. Измерванията ви остават на устройството ви, а ако включите iCloud — във вашия личен iCloud, който само вие можете да отворите.</p>
+
+<h2>От кого е тази политика</h2>
+<p>Rakia („приложението“) е разработено от <strong>[ВАШЕТО ИМЕ ИЛИ ФИРМА]</strong> („ние“). Можете да се свържете с нас на <strong>[ВАШИЯТ ИМЕЙЛ ЗА ПОДДРЪЖКА]</strong>. По смисъла на GDPR ние сме администратор на лични данни за приложението, макар че, както е описано по-долу, не събираме и не получаваме никакви лични данни чрез него.</p>
+
+<h2>Какво събираме</h2>
+<p>Нищо. Не събираме, не получаваме, не съхраняваме, не продаваме, не споделяме и не изпращаме никакви лични данни. Приложението няма:</p>
+<ul>
+  <li>Анализи или проследяване на употребата</li>
+  <li>Реклами и рекламни мрежи</li>
+  <li>Услуги за отчитане на сривове или диагностика</li>
+  <li>Чужди SDK-та, библиотеки или рамки от какъвто и да е вид</li>
+  <li>Регистрация, профили или вход</li>
+  <li>Достъп до вашите контакти, снимки, местоположение, камера, микрофон, календар или здравни данни</li>
+  <li>Вграден браузър или уеб съдържание</li>
+</ul>
+<p>Не поддържаме сървъри. Няма адрес, на който приложението би могло да изпрати вашата информация.</p>
+
+<h2>Какво приложението пази на устройството ви</h2>
+<p>Приложението съхранява локално на устройството ви:</p>
+<ul>
+  <li>Измерванията, които решите да запазите — плътност, температура, изчислената захарност и датата, която им поставите</li>
+  <li>Вашите настройки, например метрични или имперски мерни единици</li>
+  <li>Два брояча, по които се решава кога да се покаже поканата за оценка в App Store, и отметка, че тя вече е показана</li>
+</ul>
+<p>Нищо от това не напуска устройството ви, освен чрез синхронизацията с iCloud, описана по-долу. Изтриването на приложението премахва всичко.</p>
+
+<h2>Синхронизация с iCloud</h2>
+<p>Ако сте влезли в iCloud, запазените ви измервания се синхронизират между вашите собствени устройства на Apple чрез услугата CloudKit, в частен контейнер (<code>iCloud.com.novachkov.rakia</code>).</p>
+<p>Тези данни се намират във вашата частна база данни в iCloud. Те са свързани с вашия Apple акаунт и само вие имате достъп до тях. <strong>Ние нямаме достъп.</strong> Apple не дава на разработчиците възможност да четат съдържанието на частната база данни на потребител, а ние не разполагаме с ключ, идентификационни данни или достъп до конзола, които биха ни го позволили. Не бихме могли да видим измерванията ви дори да искахме.</p>
+<p>Данните в iCloud се обработват от Apple съгласно <a href="https://www.apple.com/legal/privacy/">Политиката за поверителност на Apple</a>. Можете да спрете синхронизацията по всяко време, като изключите iCloud за Rakia в Настройки.</p>
+
+<h2>Известия</h2>
+<p>Приложението има възможност за push известия, но тя се използва единствено от услугата CloudKit на Apple, за да подаде сигнал, че измерванията ви са се променили на друго ваше устройство и приложението да се синхронизира. Ние не изпращаме известия, не поддържаме сървър за известия и не можем да ви изпращаме съобщения. Приложението никога не иска разрешение да ви показва известия.</p>
+
+<h2>Поканата за оценка</h2>
+<p>След като запазите определен брой измервания, приложението може да поиска от iOS да покаже стандартната покана за оценка в App Store. Тя се показва от системата. Ние не разбираме дали сте я видели, дали сте я затворили или дали сте оставили оценка, и към нас не се изпраща нищо.</p>
+
+<h2>Деца</h2>
+<p>Приложението не събира данни от никого, включително от деца. Възрастовата му категория отразява това, че се отнася до производството на алкохолни напитки, а не обработка на лични данни.</p>
+
+<h2>Вашите права</h2>
+<p>Съгласно GDPR и сходните закони имате право на достъп, поправка, преносимост и изтриване на лични данни за вас. Тъй като ние не съхраняваме лични данни за вас, няма какво да извлечем, поправим или изтрием. Вие оставате изцяло господар на това, което е на устройството ви и в iCloud: можете да видите, редактирате и изтриете всяко запазено измерване в приложението, а да премахнете всичко наведнъж, като изтриете приложението.</p>
+
+<h2>Промени в тази политика</h2>
+<p>Ако тази политика се промени, новата версия ще се появи на този адрес с нова дата отгоре. Тъй като приложението не събира нищо, не очакваме съществени промени. Няма да започнем да събираме каквото и да е, без първо да публикуваме преработена политика.</p>
+
+<h2>Контакт</h2>
+<p><strong>[ВАШИЯТ ИМЕЙЛ ЗА ПОДДРЪЖКА]</strong></p>
+</section>
+
+<footer>© 2026 [YOUR NAME OR COMPANY]</footer>
+
+</main>
+</body>
+</html>
